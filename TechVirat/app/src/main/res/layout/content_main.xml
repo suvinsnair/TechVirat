@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.suvin.techvirat.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+
+    <WebView
+        android:id="@+id/wv_brow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:weightSum="1"
+        android:layout_alignBottom="@+id/wv_brow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_fwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:onClick="btn_fwdclick"
+            android:text="FORWARD" />
+
+        <Button
+            android:id="@+id/btn_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:elevation="17dp"
+            android:onClick="btn_refclick"
+            android:text="REFRESH" />
+
+        <Button
+            android:id="@+id/btn_bck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:elevation="0dp"
+            android:onClick="btn_bckclick"
+            android:text="BACK" />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

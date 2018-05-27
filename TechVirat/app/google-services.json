@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "940033288906",
+    "firebase_url": "https://techvirat-5c274.firebaseio.com",
+    "project_id": "techvirat-5c274",
+    "storage_bucket": "techvirat-5c274.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940033288906:android:7f2c1d382ef03630",
+        "android_client_info": {
+          "package_name": "com.example.suvin.techvirat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940033288906-223r115b8atornrp7t7q4psp04om46ss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suvin.techvirat",
+            "certificate_hash": "5566427142fdcc01ef2c87f766a3c4ebcabb19aa"
+          }
+        },
+        {
+          "client_id": "940033288906-vic4aa64lpu4jkh3994rapad3g5usr0u.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "940033288906-vic4aa64lpu4jkh3994rapad3g5usr0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc-M4a_IOQm0hwuvxGJQEZuBQVXN1BF3Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940033288906-vic4aa64lpu4jkh3994rapad3g5usr0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
